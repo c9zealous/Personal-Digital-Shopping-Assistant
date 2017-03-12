@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item android:id="@+id/logout_id"
+        android:title="@string/action_logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:title="@string/share"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/aboutButton"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="never"
+        android:title="@string/about_dev"/>
+    <item
+        android:id="@+id/howto"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="never"
+        android:title="@string/howto"/>
+
+
+</menu>

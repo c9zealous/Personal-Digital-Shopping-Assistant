@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pdsasistance.pdsa.MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Log In"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/user_email"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:lines="1"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:hint="E-Mail"
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_email"
+        android:inputType="textEmailAddress"
+        android:layout_above="@+id/user_pass"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/user_pass"
+        android:layout_above="@+id/userLogin"
+        android:layout_alignLeft="@+id/user_email"
+        android:layout_alignStart="@+id/user_email"
+        android:layout_marginBottom="57dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/userLogin"
+        android:onClick="userLogin"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sign Up Here"
+        android:id="@+id/Bsignup"
+        android:onClick="userReg"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a Member?"
+        android:id="@+id/textView12"
+        android:layout_alignLeft="@+id/userLogin"
+        android:layout_alignStart="@+id/userLogin"
+        android:layout_below="@+id/userLogin" />
+
+</RelativeLayout>

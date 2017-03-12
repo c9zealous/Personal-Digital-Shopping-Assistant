@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_one"
+            android:title="Shopping List" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/ic_two"
+            android:title="News and Events" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/ic_three"
+            android:title="Point Cards" />
+        <item
+            android:id="@+id/nav_four_fragment"
+            android:icon="@drawable/ic_four"
+            android:title="Smart Budget" />
+        <item
+            android:id="@+id/nav_five_fragment"
+            android:icon="@drawable/ic_five"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/nav_six_fragment"
+            android:icon="@drawable/ic_six"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_seven_fragment"
+            android:icon="@drawable/ic_seven"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_eight_fragment"
+            android:icon="@drawable/ic_eight"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_nine_fragment"
+            android:icon="@drawable/ic_nine"
+            android:title="Compare" />
+    </group>
+
+</menu>
+
